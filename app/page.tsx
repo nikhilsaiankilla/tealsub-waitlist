@@ -13,7 +13,7 @@ export default function Home() {
         {/* --- CONTENT (Added relative & z-10 to sit on top) --- */}
         <div className="relative z-10 flex flex-col items-center">
 
-          <div className="mb-8 inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/50 backdrop-blur-sm border border-neutral-200 text-xs font-medium text-neutral-600 shadow-sm">
+          <div className="mb-8 inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/50 backdrop-blur-sm border border-neutral-200 text-xs text-neutral-600 shadow-sm">
             <span className="relative flex h-2 w-2">
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-teal-400 opacity-75"></span>
               <span className="relative inline-flex rounded-full h-2 w-2 bg-teal-500"></span>
@@ -21,7 +21,7 @@ export default function Home() {
             Early Access Waitlist
           </div>
 
-          <h1 className={`${heroFont.className} max-w-4xl text-4xl md:text-7xl tracking-tight leading-[1.1] mb-3`}>
+          <h1 className={`${heroFont.className} italic max-w-4xl text-4xl md:text-7xl tracking-tight leading-[1.1] mb-3`}>
             Email distribution for <br className="hidden md:block" />
             {/* Added a subtle background highlight to make text readable over grid lines */}
             <span className="italic text-neutral-800 relative inline-block">
